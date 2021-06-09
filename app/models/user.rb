@@ -1,8 +1,6 @@
 class User < ApplicationRecord
   include BCrypt
 
-  #   has_secure_password
-
   validates :username, presence: true, uniqueness: true
   validates :password, presence: true
 
@@ -12,9 +10,10 @@ class User < ApplicationRecord
 
   def password=(new_password)
     if new_password.blank?
-        @password = new_password
+      @password = new_password
     else
-    @password = Password.create(new_password)
-    self.encrypted_password = @password
+      @password = Password.create(new_password)
+      self.encrypted_password = @password
+    end
   end
 end
