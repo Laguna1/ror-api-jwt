@@ -21,8 +21,8 @@
 ### Getting Started
 
 To get a local copy up and running follow these simple example steps.
-- `git clone https://github.com/Laguna1/api-back/tree/development`
-- `cd api-back`
+- `git clone https://github.com/Laguna1/.../tree/development`
+- `cd ...`
 
 ### Setup
 
@@ -51,11 +51,11 @@ Open `http://localhost:3000/` in your browser.
 
 ### Author
 
-👤 **Oksana Petrova**
+<!-- 👤 **Oksana Petrova**
 
 - GitHub: [@github/Laguna1](https://github.com/Laguna1)
 - Linkedin: [linkedin/OksanaPetrova](https://www.linkedin.com/in/oksana-petrova/)
-- Twitter: [@OksanaP48303303](https://twitter.com/OksanaP48303303)
+- Twitter: [@OksanaP48303303](https://twitter.com/OksanaP48303303) -->
 
 ### 🤝 Contributing
 
