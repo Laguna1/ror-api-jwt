@@ -1,6 +1,6 @@
 # README
 
-- data output format: 
+- data output format using serializer: 
  data: {
   type: 'users',
   attributes: {
