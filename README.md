@@ -1,5 +1,15 @@
 # README
 
+- data output format: 
+ data: {
+  type: 'users',
+  attributes: {
+    username: 'testuser',
+    email: 'testuser@mail',
+    password: 'password'
+  }
+}
+
 ### Prerequisites
 
 - Ruby v2.7.2
