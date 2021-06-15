@@ -13,9 +13,12 @@ class ItemsController < ApplicationController
   end
 
   def create
-    @item = current_user.items.build(item_params)
-
-    if @item.save
+    items = current_user.items
+    
+    @item = items.build(item_params)
+    if items.exists?(day: item_params[:day])
+      render json: { day: ['has already been taken'] }, status: :unprocessable_entity
+    elsif @item.save
       render json: serializer.new(@item), status: :created, location: @item
     else
       render json: @item.errors, status: :unprocessable_entity
