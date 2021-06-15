@@ -83,7 +83,7 @@ RSpec.describe '/items', type: :request do
           patch item_url(item),
                 params: { data: { attributes: new_attributes } },
                 headers: valid_headers, as: :json
-                item.reload
+          item.reload
         end.to change(Item, :count).by(0)
       end
 
