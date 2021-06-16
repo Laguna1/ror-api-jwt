@@ -39,7 +39,8 @@ class TracksController < ApplicationController
       "INNER JOIN items
         ON items.id = tracks.item_id
         AND items.user_id = #{current_user.id}
-        AND tracks.name = '#{params[:name]}'"
+        AND tracks.name = '#{params[:name]}'
+        ORDER BY routines.day ASC"
     )
 
     render json: serializer.new(@tracks)

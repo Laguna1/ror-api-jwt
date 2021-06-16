@@ -1,5 +1,7 @@
 # README
 
+[POSTMAN Documentation](https://documenter.getpostman.com/view/13821409/TzeWH8aG)
+
 - data output format using serializer: 
  data: {
   type: 'users',
