@@ -13,7 +13,7 @@
 }
 
 - User ![login-user](./assets/user-login-responce.png)
-- Item![get-item](./assets/get-item-responce.png)
+- Item ![get-item](./assets/get-item-responce.png)
 - Track ![login-user](./assets/get-track-responce.png)
 
 ### Prerequisites

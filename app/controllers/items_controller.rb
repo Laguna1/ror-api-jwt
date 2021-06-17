@@ -14,7 +14,7 @@ class ItemsController < ApplicationController
 
   def create
     items = current_user.items
-    
+
     @item = items.build(item_params)
     if items.exists?(day: item_params[:day])
       render json: { day: ['has already been taken'] }, status: :unprocessable_entity
