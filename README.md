@@ -13,8 +13,13 @@
 }
 
 - User ![login-user](./assets/user-login-responce.png)
+- Javascript - Fetch  Request Example ![login-user](./assets/JS-fetch-user-login.png)
+
 - Item ![get-item](./assets/get-item-responce.png)
+- Javascript - Fetch  Request Example ![get-item](./assets/JS-fetch-get-item.png)
+
 - Track ![login-user](./assets/get-track-responce.png)
+- Javascript - Fetch  Request Example ![get-track](./assets/JS-fetch-get-track.png)
 
 ### Prerequisites
 
